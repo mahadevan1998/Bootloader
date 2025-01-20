@@ -119,20 +119,7 @@ extern "C" {
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
-void bootloader_uart_read_data (void);
-void bootloader_jump_to_user_app(void);
-void bootloader_handle_getver_cmd(uint8_t *bl_rx_buffer);
-void bootloader_handle_gethelp_cmd(uint8_t *pBuffer);
-void bootloader_handle_getcid_cmd(uint8_t *pBuffer);
-void bootloader_handle_getrdp_cmd(uint8_t *pBuffer);
-void bootloader_handle_go_cmd(uint8_t *pBuffer);
-void bootloader_handle_flash_erase_cmd(uint8_t *pBuffer);
-void bootloader_handle_mem_write_cmd(uint8_t *pBuffer);
-void bootloader_handle_en_rw_protect(uint8_t *pBuffer);
-void bootloader_handle_mem_read (uint8_t *pBuffer);
-void bootloader_handle_read_sector_protection_status(uint8_t *pBuffer);
-void bootloader_handle_read_otp(uint8_t *pBuffer);
-void bootloader_handle_dis_rw_protect(uint8_t *pBuffer);
+
 /* USER CODE BEGIN EFP */
 
 /* USER CODE END EFP */

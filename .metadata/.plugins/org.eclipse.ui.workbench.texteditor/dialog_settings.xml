@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="system"/>
+		<item key="selection" value="data"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="data"/>
+			<item value="hcrc.InputDataFormat = CRC_INPUTDATA_FORMAT_BYTES;"/>
+			<item value="CRC_INPUTDATA_FORMAT_WORDS;"/>
 			<item value="system"/>
 		</list>
 		<list key="replacehistory">
