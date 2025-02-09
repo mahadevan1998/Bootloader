@@ -815,6 +815,28 @@ void bootloader_handle_read_otp(uint8_t *pBuffer)
 
 
 }
+#if 0
+static void bootloader_handle_en_rw_protect(uint8_t *pBuffer)
+ {
+
+ }
+static void bootloader_handle_mem_read (uint8_t *pBuffer)
+ {
+
+ }
+static void bootloader_handle_read_sector_protection_status(uint8_t *pBuffer)
+ {
+
+ }
+static void bootloader_handle_read_otp(uint8_t *pBuffer)
+ {
+
+ }
+static void bootloader_handle_dis_rw_protect(uint8_t *pBuffer)
+ {
+
+ }
+#endif
 /************************************************************************************************************
  * Helper functions for bootloader command handling APIs
  ***********************************************************************************************************/
